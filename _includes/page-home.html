@@ -1,0 +1,54 @@
+{% assign projects = site.pages | where: 'type', 'project' | where: 'lang', 'ko' %}
+<section class="resume-hero" aria-labelledby="intro-title">
+  <p class="eyebrow">GAME CLIENT PROGRAMMER</p>
+  <h1 id="intro-title">김진우<span class="hero-divider"> / </span>게임 클라이언트 프로그래머</h1>
+  <p class="hero-lead">입력에서 전투까지, 플레이 규칙을 구현합니다.</p>
+  <p class="hero-summary">Unity·C#으로 행동·전투·성장·UI·진행 시스템을 만들고, C++·SFML로 이동·충돌·레벨 로딩을 구현했습니다. 실제 플레이에서 드러나는 상태 전환과 경계 조건을 살피며 개발합니다.</p>
+  <div class="hero-actions">
+    <a class="button-main" href="{{ '/work/' | relative_url }}">프로젝트 살펴보기 <span aria-hidden="true">↗</span></a>
+    <a class="button-light" href="https://github.com/jinu217" target="_blank" rel="noopener">GitHub ↗</a>
+    <a class="button-light" href="{{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}" target="_blank" rel="noopener">상세 포트폴리오 PDF ↗</a>
+  </div>
+</section>
+
+<section aria-labelledby="focus-title" class="resume-section">
+  <div class="section-heading"><h2 id="focus-title">핵심 경험</h2><span>01 / RESUME</span></div>
+  <div class="focus-grid">
+    <div class="focus-card"><strong>게임플레이</strong><p>플레이어 이동·공격 판정, 장비 스탯, 적·보스 AI, 튜토리얼</p></div>
+    <div class="focus-card"><strong>클라이언트</strong><p>입력·캐릭터 선택, 이벤트 기반 UI, 오디오 설정, 카메라</p></div>
+    <div class="focus-card"><strong>데이터·진행</strong><p>ScriptableObject, JSON 레벨 검증, 맵 그래프, 세션 상태</p></div>
+  </div>
+  <p class="resume-stack"><b>사용 기술</b> Unity · C# · C++ · SFML · Git · GitHub <span>보조 경험: PHP · JavaScript · MariaDB</span></p>
+</section>
+
+<section aria-labelledby="featured-title" class="resume-section">
+  <div class="section-heading"><h2 id="featured-title">대표 프로젝트</h2><span>02 / SELECTED WORK</span></div>
+  <p class="section-deck">프로젝트마다 직접 맡은 범위와 기술적 판단을 분리해 정리했습니다.</p>
+  <div class="featured-grid">
+    {% assign featured_slugs = 'knight-only,maplelikeclient,wheel-of-fortune' | split: ',' %}
+    {% for slug in featured_slugs %}
+      {% assign project = projects | where: 'slug', slug | first %}
+      {% if project %}
+      <a class="featured-card" href="{{ project.url | relative_url }}">
+        <img src="{{ project.thumbnail | relative_url }}" alt="{{ project.thumbnail_alt }}">
+        <div class="featured-copy"><p class="featured-kicker">{{ project.role }} · {{ project.year }}</p><h3>{{ project.title }}</h3><p>{{ project.excerpt }}</p><span>구현 내용 보기 ↗</span></div>
+      </a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section aria-labelledby="history-title" class="resume-section">
+  <div class="section-heading"><h2 id="history-title">프로젝트 이력</h2><span>03 / EXPERIENCE</span></div>
+  <div class="resume-history">
+    {% assign resume_slugs = 'wheel-of-fortune,maplelikeclient,indie-go,knight-only,tishoo,computer-science-growth,chainsaw-growth' | split: ',' %}
+    {% for slug in resume_slugs %}
+      {% assign project = projects | where: 'slug', slug | first %}
+      {% if project %}
+      <a class="history-row" href="{{ project.url | relative_url }}"><span class="history-date">{{ project.period }}</span><span class="history-project"><b>{{ project.title }}</b><small>{{ project.resume_line }}</small></span><span class="history-arrow" aria-hidden="true">↗</span></a>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="closing-note" aria-label="연락 및 상세 자료"><p>더 자세한 구조와 코드 근거는 프로젝트 페이지와 <a href="{{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}">41쪽 상세 포트폴리오</a>에서 확인할 수 있습니다.</p><a href="https://github.com/jinu217" target="_blank" rel="noopener">github.com/jinu217 ↗</a></section>

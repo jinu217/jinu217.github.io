@@ -1,0 +1,66 @@
+locale: "ko-KR"
+title: "김진우 | 게임 클라이언트 프로그래머"
+description: "Unity·C#과 C++로 게임의 입력, 전투, 진행 시스템을 구현하는 김진우의 이력서와 프로젝트 포트폴리오"
+url: "https://jinu217.github.io"
+baseurl: ""
+repository: "jinu217/jinu217.github.io"
+timezone: "Asia/Seoul"
+logo: "/images/projects/knight-only.png"
+
+template:
+  license_year: 2026
+  custom_domain: ""
+
+analytics:
+  plausible_domain: ""
+
+discussions:
+  enabled: false
+  repo: ""
+  repo_id: ""
+  category: "Announcements"
+  category_id: ""
+
+author:
+  name: "김진우"
+  role: "게임 클라이언트 프로그래머"
+  education: ""
+  location: ""
+  email: ""
+  avatar: ""
+  cv: ""
+  github: "https://github.com/jinu217"
+  linkedin: ""
+  scholar: ""
+  orcid: ""
+
+languages:
+  default: ko
+  available:
+    - code: ko
+      label: "한국어"
+      home_url: "/"
+
+appearance:
+  accent_color: "#275b66"
+  recent_items_on_home: 3
+  background_pattern: "none"
+  theme_mode: "auto"
+  font_style: "default"
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - CODE_OF_CONDUCT.md
+  - SECURITY.md
+  - CNAME.example
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - content-templates
+  - entries/README.md
