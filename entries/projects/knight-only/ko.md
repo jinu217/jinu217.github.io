@@ -7,7 +7,7 @@ slug: knight-only
 permalink: /projects/knight-only/
 date: 2025-12-01
 year: 2025
-period: "2025.12 시작"
+period: "2025.12–2026.08"
 image: "/images/projects/knight-only.png"
 thumbnail: "/images/projects/knight-only.png"
 cover: "/images/projects/knight-only.png"

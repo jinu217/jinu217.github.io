@@ -18,13 +18,13 @@ role: "7인 팀 · PM / 프로그래머"
 technologies: [Unity, C#, ScriptableObject]
 code: "https://github.com/jinu217/MiniGame_2025_2/tree/dev"
 demo: ""
-excerpt: "공통 보스 실행 구조와 페이즈 데이터를 구성하고 부채꼴 탄막 패턴을 구현했습니다."
-resume_line: "Unity·C# / 보스 공통 구조·페이즈 데이터·탄막 패턴, PM·통합"
+excerpt: "PM 겸 개발자로 보스 전투와 팀 작업을 연결하고, Android 빌드로 학교 축제에서 시연했습니다."
+resume_line: "Unity·C# / 보스 전투·PM·통합, Android APK 학교 축제 시연"
 ---
 
 ## 프로젝트와 역할
 
-7인 팀에서 PM·프로그래머를 맡았습니다. 기능 분담과 통합, 축제 시연용 APK 준비를 진행했고, 보스 공통 구조와 스테이지별 발사 패턴을 구현했습니다.
+7인 팀에서 PM·프로그래머를 맡았습니다. 기능 분담과 통합, 보스 공통 구조와 스테이지별 발사 패턴을 구현했습니다. 게임을 Android APK로 빌드해 학교 축제 방문객을 대상으로 시연했습니다.
 
 ## 공통 실행과 페이즈 데이터
 

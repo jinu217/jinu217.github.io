@@ -18,13 +18,13 @@ role: "7인 팀 · 프로그래머"
 technologies: [PHP, JavaScript, MariaDB]
 code: "https://github.com/jinu217/sideproject"
 demo: ""
-excerpt: "팀 웹 서비스에서 프로필 수정과 동료 후기의 입력·저장·조회 흐름을 구현했습니다."
-resume_line: "PHP·JavaScript·MariaDB / 프로필·후기·DB 연동과 공통 화면"
+excerpt: "7인 팀의 유일한 개발자로 화면·PHP 서버·DB를 연결하고 클라우드 배포까지 맡았습니다."
+resume_line: "PHP·JavaScript·MariaDB / 단독 개발, 화면·서버·DB·클라우드 배포"
 ---
 
 ## 프로젝트와 담당 범위
 
-7인 팀(기획 2명, 프로그래머 1명, 디자이너 4명)의 웹 서비스 프로젝트입니다. 프런트엔드, 백엔드와 데이터베이스 연동을 담당했습니다.
+7인 팀(기획 2명, 프로그래머 1명, 디자이너 4명)의 웹 서비스 프로젝트입니다. 유일한 개발자로 화면, PHP 서버 로직, 데이터베이스 연동과 네이버 클라우드 서버 배포를 담당했습니다.
 
 ## 후기 데이터 흐름
 

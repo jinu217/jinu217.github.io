@@ -7,7 +7,7 @@ slug: indie-go
 permalink: /projects/indie-go/
 date: 2026-04-01
 year: 2026
-period: "2026.04 시작"
+period: "2026.04–2026.08"
 image: "/images/projects/indie-go.png"
 thumbnail: "/images/projects/indie-go.png"
 cover: "/images/projects/indie-go.png"
@@ -25,6 +25,8 @@ resume_line: "Unity·C# / 로컬 입력·캐릭터 선택·턴 UI·오디오, �
 ## 프로젝트와 역할
 
 8인 팀의 PM·프로그래머로 참여했습니다. 키보드·게임패드의 참가 입력, 캐릭터 선택, 공통 UI와 오디오 설정을 구현하고 기능 분담과 통합 과정을 맡았습니다.
+
+창업 캠프 발표와 시연을 위한 MVP를 제작하고 발표했습니다. PM으로서 기능 간 선후 관계를 정리하고 개발 영역을 분리해 동시 작업과 통합을 조율했습니다.
 
 ## 플레이어별 입력과 선택 상태
 
