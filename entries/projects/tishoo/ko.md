@@ -14,7 +14,7 @@ cover: "/images/projects/tishoo.png"
 cover_alt: "후기 입력과 데이터베이스 연결을 보여주는 게임 화면"
 thumbnail_alt: "Tishoo 프로젝트 화면"
 label: "직접 구현"
-role: "7인 팀 · 프로그래머"
+role: "7인 팀 · 단독 개발자"
 technologies: [PHP, JavaScript, MariaDB]
 code: "https://github.com/jinu217/sideproject"
 demo: ""
@@ -24,7 +24,7 @@ resume_line: "PHP·JavaScript·MariaDB / 단독 개발, 화면·서버·DB·클�
 
 ## 프로젝트와 담당 범위
 
-7인 팀(기획 2명, 프로그래머 1명, 디자이너 4명)의 웹 서비스 프로젝트입니다. 유일한 개발자로 화면, PHP 서버 로직, 데이터베이스 연동과 네이버 클라우드 서버 배포를 담당했습니다.
+기업 연계 수업의 과제로 만든 7인 팀(기획 2명, 프로그래머 1명, 디자이너 4명)의 웹 서비스 프로젝트입니다. 유일한 개발자로 화면, PHP 서버 로직, 데이터베이스 연동과 네이버 클라우드 서버 배포를 담당했습니다.
 
 ## 후기 데이터 흐름
 
@@ -38,4 +38,4 @@ resume_line: "PHP·JavaScript·MariaDB / 단독 개발, 화면·서버·DB·클�
 
 [공통 레이아웃 코드 보기](https://github.com/jinu217/sideproject/blob/1f6d4e2a5830e17113519ef9419b671a61682c67/common/layout.php#L1)
 
-이 경험은 게임 외 서비스 개발 사례로 분리했습니다. 자세한 흐름은 [상세 포트폴리오 PDF]({{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}) 38–40쪽에 있습니다.
+이 경험은 게임 외 서비스 개발 사례로 분리했습니다. 자세한 흐름은 [상세 포트폴리오 PDF]({{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}) 30쪽과 부록 35쪽에 있습니다.

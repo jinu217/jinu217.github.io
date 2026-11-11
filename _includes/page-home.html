@@ -15,13 +15,13 @@
 <section aria-labelledby="focus-title" class="resume-section">
   <div class="section-heading"><h2 id="focus-title">핵심 경험</h2><span>01 / RESUME</span></div>
   <div class="focus-grid">
-    <div class="focus-card"><strong>게임플레이</strong><p>플레이어 이동·공격 판정, 장비 스탯, 적·보스 AI, 튜토리얼</p></div>
-    <div class="focus-card"><strong>클라이언트</strong><p>입력·캐릭터 선택, 이벤트 기반 UI, 오디오 설정, 카메라</p></div>
+    <div class="focus-card"><strong>게임플레이</strong><p>플레이어 이동·공격 판정, BPM·SP 상태, 적·보스 AI, 튜토리얼</p></div>
+    <div class="focus-card"><strong>클라이언트</strong><p>입력·캐릭터 선택, 이벤트 기반 UI, 씬 전환, 플랫폼 진동 연동</p></div>
     <div class="focus-card"><strong>데이터·진행</strong><p>ScriptableObject, JSON 레벨 검증, 맵 그래프, 세션 상태</p></div>
   </div>
   <p class="resume-stack"><b>사용 기술</b> Unity · C# · C++ · SFML · Git · GitHub <span>보조 경험: PHP · JavaScript · MariaDB</span></p>
   <div class="proof-grid" aria-label="프로젝트 결과">
-    <a href="{{ '/projects/chainsaw-growth/' | relative_url }}"><b>실제 출시·운영</b><span>전기톱 키우기 · 토스 앱 미니게임 출시, 광고 수익 발생 ↗</span></a>
+    <a href="{{ '/projects/chainsaw-growth/' | relative_url }}"><b>실제 출시·운영</b><span>전기톱 키우기 · 토스 앱 미니게임 출시, 출시 뒤 업데이트 ↗</span></a>
     <a href="{{ '/projects/computer-science-growth/' | relative_url }}"><b>현장 시연</b><span>컴공과 키우기 · Android APK로 학교 축제 시연 ↗</span></a>
     <a href="{{ '/projects/wheel-of-fortune/' | relative_url }}"><b>게임잼 배포</b><span>Wheel of Fortune · 24시간 안에 Windows 빌드 완성 ↗</span></a>
   </div>
@@ -31,7 +31,7 @@
   <div class="section-heading"><h2 id="featured-title">대표 프로젝트</h2><span>02 / SELECTED WORK</span></div>
   <p class="section-deck">프로젝트마다 직접 맡은 범위와 기술적 판단을 분리해 정리했습니다.</p>
   <div class="featured-grid">
-    {% assign featured_slugs = 'chainsaw-growth,knight-only,maplelikeclient' | split: ',' %}
+    {% assign featured_slugs = 'knight-only,chainsaw-growth,indie-go' | split: ',' %}
     {% for slug in featured_slugs %}
       {% assign project = projects | where: 'slug', slug | first %}
       {% if project %}
@@ -47,7 +47,7 @@
 <section aria-labelledby="history-title" class="resume-section">
   <div class="section-heading"><h2 id="history-title">프로젝트 이력</h2><span>03 / EXPERIENCE</span></div>
   <div class="resume-history">
-    {% assign resume_slugs = 'wheel-of-fortune,maplelikeclient,indie-go,knight-only,tishoo,computer-science-growth,chainsaw-growth' | split: ',' %}
+    {% assign resume_slugs = 'knight-only,indie-go,wheel-of-fortune,maplelikeclient,chainsaw-growth,computer-science-growth,tishoo' | split: ',' %}
     {% for slug in resume_slugs %}
       {% assign project = projects | where: 'slug', slug | first %}
       {% if project %}
@@ -63,7 +63,8 @@
     <div class="education-row"><span>2020.03–2027.02</span><p><b>한경국립대학교</b><small>소프트웨어융합전공 · 학사 졸업예정</small></p></div>
     <div class="education-row"><span>직무 관련 교육</span><p><b>C, C++ 프로그래밍</b><small>더조은컴퓨터아카데미 · 2023.04–2023.05</small></p></div>
     <div class="education-row"><span>직무 관련 교육</span><p><b>파이썬 프로그래밍</b><small>더조은컴퓨터아카데미 · 2023.08–2023.09</small></p></div>
+    <div class="education-row"><span>병역</span><p><b>산업기능요원 복무 마침</b><small>2022.04–2024.03</small></p></div>
   </div>
 </section>
 
-<section class="closing-note" aria-label="연락 및 상세 자료"><p>더 자세한 구조와 코드 근거는 프로젝트 페이지와 <a href="{{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}">41쪽 상세 포트폴리오</a>에서 확인할 수 있습니다.</p><a href="https://github.com/jinu217" target="_blank" rel="noopener">github.com/jinu217 ↗</a></section>
+<section class="closing-note" aria-label="연락 및 상세 자료"><p>더 자세한 구조와 코드 근거는 프로젝트 페이지와 <a href="{{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}">상세 포트폴리오(35쪽)</a>에서 확인할 수 있습니다.</p><a href="https://github.com/jinu217" target="_blank" rel="noopener">github.com/jinu217 ↗</a></section>

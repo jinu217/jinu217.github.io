@@ -28,6 +28,8 @@ C++와 SFML로 만든 2D 액션 개인 프로젝트입니다. `Game`이 입력·
 
 ## 단방향 발판의 착지 조건
 
+첫 버전은 모든 발판을 막힌 지형으로 처리해, 얇은 발판 아래에서 점프하면 머리가 부딪히고 옆에서는 벽처럼 막혔습니다. 발판을 Solid와 OneWay로 나누고 단방향 발판의 착지 조건을 따로 만들었습니다. ([첫 버전](https://github.com/jinu217/MapleLikeClient/commit/bdebe40) → [수정](https://github.com/jinu217/MapleLikeClient/commit/8d23f2d))
+
 현재 프레임의 겹침만 보면 발판 아래에서 올라오는 경우와 위에서 내려오는 경우를 구분하기 어렵습니다. 이전 프레임의 발 하단 위치와 수직 속도를 함께 확인해 위에서 접근한 하강 상태일 때 착지시켰습니다. 아래로 내려가기 입력을 받으면 짧은 타이머 동안 착지를 건너뜁니다.
 
 [충돌 판정 코드 보기](https://github.com/jinu217/MapleLikeClient/blob/8d23f2d7833fab796f05cebd5a2d8ca4b8c8f66d/MapleLikeClient/Player.cpp#L477)
@@ -44,4 +46,4 @@ C++와 SFML로 만든 2D 액션 개인 프로젝트입니다. `Game`이 입력·
 
 [레벨 검증 코드 보기](https://github.com/jinu217/MapleLikeClient/blob/8d23f2d7833fab796f05cebd5a2d8ca4b8c8f66d/MapleLikeClient/LevelLoader.cpp#L14) · [World 구조 보기](https://github.com/jinu217/MapleLikeClient/blob/8d23f2d7833fab796f05cebd5a2d8ca4b8c8f66d/MapleLikeClient/World.cpp#L9)
 
-공격 ID를 이용한 연속 피격 구분, 카메라 추적과 화면 비율 처리도 [전체 포트폴리오 PDF]({{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}) 18–26쪽에 담았습니다.
+공격 ID를 이용한 연속 피격 구분, 카메라 추적과 화면 비율 처리도 [전체 포트폴리오 PDF]({{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}) 24–27쪽과 부록 32쪽에 담았습니다.

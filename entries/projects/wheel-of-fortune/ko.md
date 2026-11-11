@@ -14,7 +14,7 @@ cover: "/images/projects/wheel-of-fortune.png"
 cover_alt: "맵 노드와 룰렛을 보여주는 게임 화면"
 thumbnail_alt: "Wheel of Fortune 프로젝트 화면"
 label: "직접 구현"
-role: "4인 팀 · 프로그래머"
+role: "4인 팀 · 단독 프로그래머"
 technologies: [Unity, C#]
 code: "https://github.com/jinu217/Wheel-of-Fortune"
 demo: ""
@@ -24,9 +24,9 @@ resume_line: "Unity·C# / 이벤트 맵·룰렛·전투, 24시간 게임잼 Wind
 
 ## 프로젝트와 담당 범위
 
-4인 게임잼 팀에서 이벤트 맵, 노드 연결, 룰렛, 전투 후 맵 복귀와 회차 상태를 구현했습니다.
+교내 게임 개발 동아리의 4인 게임잼 팀(기획 2명, 개발 1명, 디자인 1명)에서 이벤트 맵, 노드 연결, 룰렛, 전투 후 맵 복귀와 회차 상태를 구현했습니다.
 
-약 24시간 안에 처음부터 끝까지 플레이 가능한 Windows 실행 파일을 완성해 동아리 카페에 배포했습니다. 팀에서 프로그래밍을 혼자 맡아 핵심 플레이 흐름부터 완성하는 순서로 작업했습니다.
+약 24시간 안에 처음부터 끝까지 플레이 가능한 Windows 실행 파일을 완성해 동아리 카페에 배포했습니다. 팀의 유일한 프로그래머로 핵심 플레이 흐름부터 완성하는 순서로 작업했고, 첫 커밋 뒤 약 17시간 만에 처음부터 끝까지 이어지는 MVP를 만들었습니다. 노드 사이 점선 표시와 맵 스크롤은 다른 팀원이 올린 코드입니다.
 
 ## 연결 가능한 이벤트 맵
 
@@ -48,4 +48,4 @@ resume_line: "Unity·C# / 이벤트 맵·룰렛·전투, 24시간 게임잼 Wind
 
 [진행 상태 코드 보기](https://github.com/jinu217/Wheel-of-Fortune/blob/0a62f3d881bc23f9f0aa3f758ad79aad462abb2e/Assets/Scripts/Map/InGameProgressionManager.cs#L59)
 
-구조와 코드 발췌는 [전체 포트폴리오 PDF]({{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}) 33–37쪽에서 볼 수 있습니다.
+구조와 코드 발췌는 [전체 포트폴리오 PDF]({{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}) 28쪽과 부록 34쪽에서 볼 수 있습니다.

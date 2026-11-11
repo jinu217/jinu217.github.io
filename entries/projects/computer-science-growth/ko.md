@@ -24,7 +24,9 @@ resume_line: "Unity·C# / 보스 전투·PM·통합, Android APK 학교 축제 �
 
 ## 프로젝트와 역할
 
-7인 팀에서 PM·프로그래머를 맡았습니다. 기능 분담과 통합, 보스 공통 구조와 스테이지별 발사 패턴을 구현했습니다. 게임을 Android APK로 빌드해 학교 축제 방문객을 대상으로 시연했습니다.
+교내 게임 개발 동아리의 7인 팀(기획 1명, 개발 4명, 디자인 2명)에서 PM·프로그래머를 맡았습니다. 기능 분담과 통합, 보스 공통 구조와 스테이지별 발사 패턴(Stage 2~5 보스)을 구현했습니다. 게임을 Android APK로 빌드해 학교 축제 방문객을 대상으로 시연했습니다.
+
+저장소 커밋 149개 중 59개가 제 커밋으로 팀에서 가장 많습니다. 공식 기간이 끝난 뒤에도 2026년 2월까지 기획 담당의 플레이 피드백을 받아 보스 체력과 탄 피해, 스테이지 타이머 등을 고쳤습니다.
 
 ## 공통 실행과 페이즈 데이터
 
@@ -38,4 +40,4 @@ resume_line: "Unity·C# / 보스 전투·PM·통합, Android APK 학교 축제 �
 
 [탄막 패턴 코드 보기](https://github.com/jinu217/MiniGame_2025_2/blob/c27a1250ea92c0ba11b0a28b70a47c4098bfa146/Assets/Scripts/Boss/Boss_Stage2.cs#L41)
 
-관련 설명은 [상세 포트폴리오 PDF]({{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}) 31–32쪽에 있습니다.
+관련 설명은 [상세 포트폴리오 PDF]({{ '/files/kim-jinwoo-portfolio.pdf' | relative_url }}) 29쪽과 부록 33쪽에 있습니다.
